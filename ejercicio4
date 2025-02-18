@@ -1,0 +1,17 @@
+#include<stdio.h>
+int vector[11];suma;
+
+int main()
+{   printf("ingrese el primer valor a sumar\n");
+    scanf("%i", &vector[0]);
+    printf("ingrese el segundo valor a sumar\n");
+    scanf("%i", &vector[2]);
+    printf("ingrese el tercer valor a sumar\n");
+    scanf("%i", &vector[4]);
+    printf("ingrese el cuarto  valor a sumar\n");
+    scanf("%i", &vector[6]);
+    suma= vector[0]+vector[2]+vector[4]+vector[6];
+    printf("el resultado de la suma de estos num es %i", suma);
+    
+    return 0;
+}
