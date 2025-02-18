@@ -1,0 +1,19 @@
+#include<stdio.h>
+int A; B; C;
+
+int main()
+{
+printf("Ingrese el primer numero a multiplicar\n");
+scanf("%i", &A);
+printf("Indique el segundo numero a multiplicar\n");
+scanf("%i", &B);
+
+if ((B>A) || !(B != 5) || !(B != 8))
+{
+    C= A*B;
+    printf("el resultado es %i", C);
+}else {
+    printf("valor erroneo, INTENTE DE NUEVO");}
+
+return 0;
+}
