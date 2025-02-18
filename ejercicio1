@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+void contador ()
+{
+    for(int contador=1; contador<=80; contador++)
+        printf("%d\n", contador);
+    
+}
+int main()
+{
+    contador();
+    return 0;
+}
